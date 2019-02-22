@@ -1,10 +1,10 @@
 # plainJpaTemplate
-Fork (or clone and delete the .git-folder) this project to get a ready to use template for JPA-development in a plain java project (no web server)
+Clone (and delete the .git-folder) this project to get a ready to use template for JPA-development in a plain java project (no web server)
 
 It uses the strategy with an in-memory database to mock away your database for DB-related unit tests
 
 # Getting started
-- Clone the project (from your fork) and navigate into the project folder
+- Clone the project, navigate into the project folder and delete the .git-folder
 
 ### Change settings in the POM-file
 **Important:**

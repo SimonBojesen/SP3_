@@ -82,6 +82,9 @@ public class FacadeTest {
             em.close();
         }
     }
+    public void failtest(){
+        Assert.assertTrue(false);
+    }
     
     
 }

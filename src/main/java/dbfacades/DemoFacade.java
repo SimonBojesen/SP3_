@@ -36,12 +36,7 @@ public class DemoFacade {
   }
   
   public List<Car> getAllCars() {
-    EntityManager em = emf.createEntityManager();
-    try {
-      return (List<Car>) em.createQuery("select m from Car m").getResultList();
-    } finally {
-      em.close();
-    }
+   throw new UnsupportedOperationException("FIX ME, but write the test first");
   }
   public long countCars() {
     EntityManager em = emf.createEntityManager();
